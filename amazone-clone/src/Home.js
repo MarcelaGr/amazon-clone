@@ -1,5 +1,7 @@
 import React from 'react';
 import './Home.css';
+import Product from './Product';
+
 
 function Home() {
     return (
@@ -9,18 +11,19 @@ function Home() {
             </div>
 
             <div className="home__row">
-                {/* Product */}
-                {/* Product */}
+                <Product title='NETGEAR WiFi Range Extender EX3700' price={39.99} image='https://images-na.ssl-images-amazon.com/images/I/51Bq5gmIOiL._AC_SL1350_.jpg' />
+                <Product />
+                
             </div>
 
             <div className="home__row">
-                {/* Product */}
-                {/* Product */}
-                {/* Product */}
+            <Product />
+            <Product />
+            <Product />
             </div>
 
             <div className="home__row">
-                {/* Product */}
+            <Product />
             </div>
         </div>
     )
